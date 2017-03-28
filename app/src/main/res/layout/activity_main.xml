@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c2c2c2"
+    tools:context="com.example.excentusmaplistview.MainActivity">
+
+    <include layout="@layout/activity_maps" />
+    <include layout="@layout/list_view" />
+
+</RelativeLayout>
